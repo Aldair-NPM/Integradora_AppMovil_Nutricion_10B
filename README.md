@@ -12,7 +12,7 @@
 # Perfiles de Github de los Integrantes del Equipo
 - [@Aldair-NPM](https://www.github.com/Aldair-NPM)
 - [@EmilioMendozaCortes](https://www.github.com/EmilioMendozaCortes)
-- [@adalid2608](https://www.github.com/adalid2608)
+- [@Adalid26Islas](https://www.github.com/Adalid26Islas)
 - [@Amelipg](https://www.github.com/Amelipg)
 
 # Sketchs
