@@ -28,7 +28,7 @@
 # 4. Editar y Eliminar Dietas
 ![edicion y eliminacion de dieta](https://github.com/user-attachments/assets/de79fae6-ace7-4468-a0ef-0a2a8c64a1ce)
 
-#Mockups
+# Mockups
 # 1. Pantalla de carga
 ![Pantalla de carga_1](https://github.com/user-attachments/assets/b1cb870b-fa1f-4abb-b31c-e3d0020b2bd6)
 # 2. Inicio
@@ -37,6 +37,14 @@
 ![Asignacion de dieta_3](https://github.com/user-attachments/assets/a300c00c-193a-4113-b317-efaa946ac9a9)
 # 4. Editar y Eliminar Dietas
 ![Edicion y eliminacion de dietas_4](https://github.com/user-attachments/assets/a938e1ea-cffe-423c-a801-62a02d916757)
+# Wireframes
+# 1. Pantalla de carga
+![image](https://github.com/user-attachments/assets/ea463fc3-428c-4b81-b20b-142cc0a6b755)
+# 2. Inicio
+![image](https://github.com/user-attachments/assets/181a5d24-ad19-4b21-b43c-57b6de151699)
 
+# 3. Generar Dietas
+![image](https://github.com/user-attachments/assets/c4139a64-8e48-416d-8ea1-3de23b4d8706)
 
-
+# 4. Editar y Eliminar Dietas
+![image](https://github.com/user-attachments/assets/d88f0d8e-6d61-47ab-8019-e9f8c251de39)
