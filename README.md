@@ -48,3 +48,34 @@
 
 # 4. Editar y Eliminar Dietas
 ![image](https://github.com/user-attachments/assets/d88f0d8e-6d61-47ab-8019-e9f8c251de39)
+
+# App Móvil
+
+# 1.  Vista que muestra un mensaje emergente indicando el éxito de la actualización del perfil del usuario. Incluye un diseño sencillo con un botón de confirmación para cerrar el mensaje y continuar navegando en la sección de "Perfil".
+![Imagen de WhatsApp 2024-12-13 a las 00 18 03_a332fa68](https://github.com/user-attachments/assets/1528836e-6a83-405c-87fd-e57138cef40a)
+# 2.  Vista inicial de la aplicación que muestra el logotipo de Gym Bull's acompañado de un indicador de progreso horizontal. Representa el proceso de carga mientras se prepara la interfaz o los datos necesarios para el usuario. Su diseño es limpio y centrado, destacando la identidad visual de la marca.
+![Imagen de WhatsApp 2024-12-13 a las 00 18 03_1426dfb7](https://github.com/user-attachments/assets/149b0633-0251-4a23-8c18-451dfa07bf60)
+# 3.  Vista que permite al usuario crear una dieta personalizada ingresando datos como el nombre, descripción, tipo de dieta (ejemplo: Vegana, Keto), objetivos, recomendaciones o restricciones, y el miembro al que se asignará. Incluye un botón destacado en rojo para guardar la información de forma sencilla y eficiente, con un diseño limpio y enfocado en la usabilidad.
+![Imagen de WhatsApp 2024-12-13 a las 00 18 03_cc08e133](https://github.com/user-attachments/assets/7d4bf150-22e4-4867-956e-73158be72396)
+# 4.  Esta pantalla muestra la sección "Perfil de Usuario" de una aplicación móvil, con una imagen de perfil, campos editables para el nombre de usuario y correo electrónico, un botón rojo para guardar cambios, y una barra de navegación inferior donde la pestaña "Perfil" está resaltada.
+![Imagen de WhatsApp 2024-12-13 a las 00 18 04_c90381e6](https://github.com/user-attachments/assets/a9262ee3-5793-48a8-9011-b373f7660838)
+# 5.  Esta pantalla pertenece a la sección "Inicio" de una aplicación móvil. Muestra imágenes relacionadas con ejercicio y alimentación saludable, acompañadas de textos como "Planes Saludables a tu medida" y "Personal altamente capacitado". En la parte inferior, hay una barra de navegación con opciones como "Inicio", "Dietas", "Crear Dietas" y "Perfil", destacando la pestaña de "Inicio".
+![Imagen de WhatsApp 2024-12-13 a las 00 18 04_8913e496](https://github.com/user-attachments/assets/ea0a1998-8b1d-4633-b115-ad1dfb3c89e1)
+# 6.  Pantalla con información sobre una dieta, acompañada de una imagen, texto explicativo y un botón "Cerrar". La barra de navegación resalta la sección activa.
+![Imagen de WhatsApp 2024-12-13 a las 00 18 04_37759899](https://github.com/user-attachments/assets/b4d93a60-21fd-407c-aadf-93ee81d17bf7)
+# 7.  Esta vista corresponde a la pantalla de una aplicación móvil que muestra un menú categorizado de opciones, cada una acompañada de una imagen representativa. Las categorías están organizadas en una lista vertical, mientras que en la parte inferior se encuentra una barra de navegación con accesos a diferentes secciones como inicio, dietas, agregar contenido y perfil. 
+![Imagen de WhatsApp 2024-12-13 a las 00 18 04_3ced6515](https://github.com/user-attachments/assets/43d7d14b-8941-438a-ab9b-9ab10dd2005a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
