@@ -1,14 +1,14 @@
 import React from 'react';
-import {
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import { useState, useEffect } from 'react';
 import Navigation from './navigation/Navigation';
+import SplashScreen from './screens/SplashScreen';
 
 export default function App(){
-  return(
-    <Navigation />
-  )
+  const [isShowSplash, setIsShowSplash] = useState(true);
+  useEffect(()=>{
+    setTimeout(()=> {
+      setIsShowSplash(false);
+    }, 3000)
+  })
+  return <>{isShowSplash ? (<SplashScreen/>) : (<Navigation />)};</>
 } 
