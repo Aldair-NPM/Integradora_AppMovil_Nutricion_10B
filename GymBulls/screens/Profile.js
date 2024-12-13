@@ -1,6 +1,6 @@
 // UserProfileScreen.js
 import React, { useState } from 'react';
-import { View, Text, TextInput, Button, StyleSheet, Alert, Image } from 'react-native';
+import { View, Text, TextInput, Button, StyleSheet, Alert, Image, TouchableOpacity } from 'react-native';
 
 const UserProfileScreen = () => {
   const [name, setName] = useState('Adalid26Islas'); // Cambia esto por datos reales
@@ -31,7 +31,9 @@ const UserProfileScreen = () => {
         onChangeText={setEmail}
         keyboardType="email-address"
       />
-      <Button title="Guardar Cambios" onPress={handleSave} />
+      <TouchableOpacity onPress={handleSave} style={styles.closeButton}>
+          <Text style={styles.closeButtonText}>Guardar Cambios</Text>
+      </TouchableOpacity>
     </View>
   );
 };
@@ -65,7 +67,19 @@ const styles = StyleSheet.create({
     width: "40%",
     height: "100%",
     borderRadius: 100
-  }
+  },
+  closeButton: {
+    marginTop: 10,
+    backgroundColor: 'red',
+    paddingHorizontal: 40,
+    paddingVertical:10,
+    borderRadius: 10,
+  },
+  closeButtonText: {
+    color: 'white',
+    fontWeight: 'bold',
+    textAlign: "center"
+  },
 });
 
 export default UserProfileScreen;

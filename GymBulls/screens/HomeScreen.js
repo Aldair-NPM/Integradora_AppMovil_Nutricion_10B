@@ -120,8 +120,8 @@ const HomeScreen = () => {
         flex: 1
       },
       titulo: {
-        fontWeight: 'semibold',
-        fontSize: 20,
+        fontWeight: 'bold',
+        fontSize: 16,
         marginVertical: 10
       },
       contenedor: {
