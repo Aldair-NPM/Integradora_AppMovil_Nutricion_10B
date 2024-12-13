@@ -1,6 +1,6 @@
 // CreateDietScreen.js
 import React, { useState } from 'react';
-import { View, Text, TextInput, Button, StyleSheet, Alert } from 'react-native';
+import { View, Text, TextInput, Button, StyleSheet, Alert, TouchableOpacity } from 'react-native';
 
 const CreateDietScreen = () => {
   const [dietName, setDietName] = useState('');
@@ -69,7 +69,9 @@ const CreateDietScreen = () => {
         value={dietType}
         onChangeText={setDietType}
       />
-      <Button title="Crear Dieta" onPress={handleSubmit} />
+      <TouchableOpacity onPress={handleSubmit} style={styles.closeButton}>
+            <Text style={styles.closeButtonText}>Crear Dieta</Text>
+      </TouchableOpacity>
     </View>
   );
 };
@@ -93,6 +95,18 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     marginBottom: 15,
     paddingHorizontal: 10,
+  },
+  closeButton: {
+    marginTop: 10,
+    backgroundColor: 'red',
+    paddingHorizontal: 40,
+    paddingVertical:10,
+    borderRadius: 10,
+  },
+  closeButtonText: {
+    color: 'white',
+    fontWeight: 'bold',
+    textAlign: "center"
   },
 });
 

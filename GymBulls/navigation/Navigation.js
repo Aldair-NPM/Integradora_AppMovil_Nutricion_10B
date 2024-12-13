@@ -1,12 +1,13 @@
-import React from 'react'
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-import { NavigationContainer } from '@react-navigation/native'
-//Screens
-import HomeScreen from '../screens/HomeScreen'
-import DietasScreen from '../screens/DietasScreen'
-import CrearDietaScreen from '../screens/CrearDieta'
-import CategoriesScreen from '../screens/CategoriesScreen'
-import UserProfileScreen from '../screens/Profile'
+import React from 'react';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { NavigationContainer } from '@react-navigation/native';
+import Icon from 'react-native-vector-icons/Ionicons';
+
+// Importa tus pantallas
+import HomeScreen from '../screens/HomeScreen';
+import CrearDietaScreen from '../screens/CrearDieta';
+import CategoriesScreen from '../screens/CategoriesScreen';
+import UserProfileScreen from '../screens/Profile';
 
 const Tab = createBottomTabNavigator();
 
@@ -15,7 +16,11 @@ function MyTabs() {
         <Tab.Navigator
             initialRouteName='Home'
             screenOptions={{
-                tabBarActiveTintColor: "red"
+                tabBarActiveTintColor: "red",
+                tabBarInactiveTintColor: "gray",
+                tabBarStyle: {
+                    backgroundColor: '#fff',
+                },
             }}
         >
             <Tab.Screen 
@@ -23,15 +28,21 @@ function MyTabs() {
                 component={HomeScreen} 
                 options={{
                     tabBarLabel: "Inicio",
-                    headerShown: false
+                    headerShown: false,
+                    tabBarIcon: ({ color }) => (
+                        <Icon name="home-outline" size={24} color={color} />
+                    ),
                 }}
             />
             <Tab.Screen 
-                name="Meals" 
+                name="Dietas" 
                 component={CategoriesScreen} 
                 options={{
                     tabBarLabel: "Dietas",
-                    headerShown: false
+                    headerShown: false,
+                    tabBarIcon: ({ color }) => (
+                        <Icon name="restaurant-outline" size={24} color={color} />
+                    ),
                 }}
             />
             <Tab.Screen 
@@ -39,7 +50,10 @@ function MyTabs() {
                 component={CrearDietaScreen} 
                 options={{
                     tabBarLabel: "Crear Dietas",
-                    headerShown: false
+                    headerShown: false,
+                    tabBarIcon: ({ color }) => (
+                        <Icon name="add-circle-outline" size={24} color={color} />
+                    ),
                 }}
             />
             <Tab.Screen 
@@ -47,7 +61,10 @@ function MyTabs() {
                 component={UserProfileScreen} 
                 options={{
                     tabBarLabel: "Perfil",
-                    headerShown: false
+                    headerShown: false,
+                    tabBarIcon: ({ color }) => (
+                        <Icon name="person-outline" size={24} color={color} />
+                    ),
                 }}
             />
         </Tab.Navigator>
@@ -59,5 +76,5 @@ export default function Navigation() {
         <NavigationContainer>
             <MyTabs />
         </NavigationContainer>
-    )
+    );
 }
