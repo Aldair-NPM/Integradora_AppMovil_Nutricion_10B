@@ -5,8 +5,8 @@ import { NavigationContainer } from '@react-navigation/native'
 import HomeScreen from '../screens/HomeScreen'
 import DietasScreen from '../screens/DietasScreen'
 import CrearDietaScreen from '../screens/CrearDieta'
-import ProfileScreen from '../screens/Profile'
 import CategoriesScreen from '../screens/CategoriesScreen'
+import UserProfileScreen from '../screens/Profile'
 
 const Tab = createBottomTabNavigator();
 
@@ -44,7 +44,7 @@ function MyTabs() {
             />
             <Tab.Screen 
                 name="Profile" 
-                component={ProfileScreen} 
+                component={UserProfileScreen} 
                 options={{
                     tabBarLabel: "Perfil",
                     headerShown: false
