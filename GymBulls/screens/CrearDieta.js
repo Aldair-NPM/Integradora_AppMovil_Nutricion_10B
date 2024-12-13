@@ -28,12 +28,14 @@ const CreateDietScreen = () => {
       <TextInput
         style={styles.input}
         placeholder="Nombre de la dieta"
+        placeholderTextColor="#888"
         value={dietName}
         onChangeText={setDietName}
       />
       <TextInput
         style={styles.input}
         placeholder="Descripción de la dieta"
+        placeholderTextColor="#888"
         value={dietDescription}
         onChangeText={setDietDescription}
         multiline
@@ -41,6 +43,29 @@ const CreateDietScreen = () => {
       <TextInput
         style={styles.input}
         placeholder="Tipo de dieta (ej. Vegana, Keto)"
+        placeholderTextColor="#888"
+        value={dietType}
+        onChangeText={setDietType}
+      />
+      <TextInput
+        style={styles.input}
+        placeholder="Nombre del miembro al que se le asigna la dieta"
+        placeholderTextColor="#888"
+        value={dietName}
+        onChangeText={setDietName}
+      />
+      <TextInput
+        style={styles.input}
+        placeholder="Objetivos de la dieta"
+        placeholderTextColor="#888"
+        value={dietDescription}
+        onChangeText={setDietDescription}
+        multiline
+      />
+      <TextInput
+        style={styles.input}
+        placeholder="Recomendaciones o restricciones"
+        placeholderTextColor="#888"
         value={dietType}
         onChangeText={setDietType}
       />
